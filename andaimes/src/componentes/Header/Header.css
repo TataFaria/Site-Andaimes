@@ -1,0 +1,29 @@
+.logo-and-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* Espaço entre o logo e o texto */
+}
+
+.logo-and-text img {
+    height: 50px;
+    /* Ajuste o tamanho do logo */
+}
+
+.header-text {
+    text-align: left;
+    color: white;
+}
+
+.header-text h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-text h3 {
+    margin: 0;
+    font-size: 10px;
+    font-weight: normal;
+}
+

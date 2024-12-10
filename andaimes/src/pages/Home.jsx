@@ -1,11 +1,9 @@
-
+import Header from "../componentes/Header/Header"
 
 function Home() {
     return (
         <>
-            <div classNam="container">
-                
-            </div>
+           <Header/>
             
         </>
     )

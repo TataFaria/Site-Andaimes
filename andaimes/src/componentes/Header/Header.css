@@ -2,11 +2,12 @@
     display: flex;
     align-items: center;
     gap: 15px;
+    padding-bottom: 15px;
     /* Espaço entre o logo e o texto */
 }
 
 .logo-and-text img {
-    height: 50px;
+    height: 35px;
     /* Ajuste o tamanho do logo */
 }
 

@@ -5,8 +5,8 @@ import './Header.css';
 function Header() {
     return (
         <header>
-            <div className="container primary-background">
-                <div className="logo-and-text">
+            <div className="header-container primary-background">
+                <div className="logo-and-text-header">
                     <img src={Logo} alt="Logo Andaimes V.Redonda" />
                     <div className="header-text">
                         <h2>ANDAIMES V.REDONDA</h2>

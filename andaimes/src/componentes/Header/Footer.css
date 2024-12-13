@@ -1,18 +1,88 @@
 .footer {
+    background-color: #0C70F2;
+    /* Cor de fundo */
+    color: white;   
+}
+
+.footer-container {
+    display: flex;
     box-sizing: border-box;
     margin: 0 auto;
     width: 100%;
     max-width: 1140px;
     position: relative;
-    padding: 0 30px;
-    height: 130px;
+    height: 200px;  
 }
-
 
 .logo-and-text {
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-top: 55px;
-    /* Espaço entre o logo e o texto */
+    padding-top: 5px;
+    white-space: nowrap;
+
+}
+
+.logo-and-text h2 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.logo-and-text h3 {
+    font-size: 10px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.info {
+    display: flex;
+    /* Itens lado a lado */
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-width: 1140px;
+    /* Mantém alinhamento */
+    gap: 40px;
+    text-align: center;
+    padding-left: 400px;
+}
+
+
+.endereco h2,
+.horario h2 {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.endereco p,
+.horario p {
+    font-size: 8px;
+    margin: 5px 0;
+}
+
+.mapa img {
+    width: 150%;
+    max-width: 250px;
+    /* Controle do tamanho */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .info {
+        flex-direction: column;
+        /* Empilha no mobile */
+        gap: 20px;
+        text-align: center;
+    }
+
+    .mapa img {
+        max-width: 100%;
+        /* Ajusta largura no mobile */
+    }
 }

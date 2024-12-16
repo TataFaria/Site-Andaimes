@@ -1,20 +1,21 @@
 /* GRID */
-.header-container {
-    box-sizing: border-box;
-    display: flex;
-    width: 100%;
-    max-width: 1140px;
-    position: relative;
-    padding: 0 30px;
-    height: 70px;
-}
+.header {
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 1140px;
+        position: relative;
+        height: 200px;
+    }   
 
 .logo-and-text-header {
     display: flex;
     align-items: center;
     gap: 15px;
     padding-top: 5px;
-  
+    white-space: nowrap;
+    padding-left: 50px;
+        
     /* Espaço entre o logo e o texto */
 }
 

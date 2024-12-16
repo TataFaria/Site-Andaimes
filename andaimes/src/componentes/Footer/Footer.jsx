@@ -2,10 +2,11 @@ import Logo from '../../assets/andaimes-logo.svg'
 import Endereco from '../../assets/endereco.svg'
 import './Footer.css';
 
+
 function Footer() {
     return (
-        <footer className="footer">
-            <div className="footer-container">
+        <footer>
+            <div className="footer-container primary-background">
                 {/* Logo e texto principal */}
                 <div className="logo-and-text">
                     <img src={Logo} alt="Logo Andaimes V.Redonda" />
@@ -35,7 +36,6 @@ function Footer() {
                         />
                     </div>
                 </div>
-
                 
             </div>
         </footer>

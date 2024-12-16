@@ -1,25 +1,21 @@
 .footer {
-    background-color: #0C70F2;
-    /* Cor de fundo */
-    color: white;   
-}
-
-.footer-container {
     display: flex;
     box-sizing: border-box;
     margin: 0 auto;
     width: 100%;
     max-width: 1140px;
     position: relative;
-    height: 200px;  
+
 }
 
 .logo-and-text {
     display: flex;
     align-items: center;
+    padding-left: 50px;
     gap: 15px;
-    padding-top: 5px;
+    padding-top: 150px;
     white-space: nowrap;
+    color: white;
 
 }
 
@@ -38,14 +34,14 @@
 .info {
     display: flex;
     /* Itens lado a lado */
-    justify-content: flex-end;
+
     align-items: center;
-    width: 100%;
-    max-width: 1140px;
+    padding-left: 800px;
+    color: white;
     /* Mantém alinhamento */
     gap: 40px;
     text-align: center;
-    padding-left: 400px;
+    
 }
 
 
@@ -71,6 +67,13 @@
     justify-content: center;
 }
 
+.social-links{
+    padding-left: 500px;
+    padding-bottom: 150px;
+    width: 3px;
+    height: 3px;
+    align-items: end;
+}
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {

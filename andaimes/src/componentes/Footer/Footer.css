@@ -1,22 +1,25 @@
-.footer {
-    display: flex;
-    box-sizing: border-box;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1140px;
-    position: relative;
 
+/* Footer Container Geral */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    /* Divide espaço igualmente */
+    align-items: center;
+    flex-wrap: wrap;
+    /* Adapta em telas menores */
+    box-sizing: border-box;
+    padding: 50px 30px;
+    width: 100%;
+    margin: 0;
+    padding: 20px 50px;
+    color: white;
 }
 
+/* Logo e Texto */
 .logo-and-text {
     display: flex;
     align-items: center;
-    padding-left: 50px;
     gap: 15px;
-    padding-top: 150px;
-    white-space: nowrap;
-    color: white;
-
 }
 
 .logo-and-text h2 {
@@ -26,66 +29,61 @@
 }
 
 .logo-and-text h3 {
-    font-size: 10px;
+    font-size: 12px;
     margin: 0;
     font-weight: normal;
 }
 
+/* Informações */
 .info {
     display: flex;
+    justify-content: space-between;
     /* Itens lado a lado */
-
-    align-items: center;
-    padding-left: 800px;
-    color: white;
-    /* Mantém alinhamento */
     gap: 40px;
-    text-align: center;
-    
+    align-items: center;
+  
 }
 
+.endereco,
+.horario,
+.mapa {
+    text-align: center;  
+}
 
 .endereco h2,
 .horario h2 {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .endereco p,
 .horario p {
-    font-size: 8px;
+    font-size: 10px;
     margin: 5px 0;
 }
 
 .mapa img {
-    width: 150%;
+    width: 100%;
     max-width: 250px;
-    /* Controle do tamanho */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    justify-content: center;
 }
 
-.social-links{
-    padding-left: 500px;
-    padding-bottom: 150px;
-    width: 3px;
-    height: 3px;
-    align-items: end;
-}
-
-/* Responsividade para telas menores */
+/* Responsividade */
 @media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
     .info {
         flex-direction: column;
-        /* Empilha no mobile */
         gap: 20px;
         text-align: center;
     }
 
     .mapa img {
         max-width: 100%;
-        /* Ajusta largura no mobile */
     }
 }

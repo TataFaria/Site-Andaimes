@@ -1,0 +1,65 @@
+.andaimes {
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+.filtro {
+    text-align: end;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.filtro select {
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 20px;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produto h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produto p {
+    font-size: 15px;
+}
+
+/* Botão do WhatsApp */
+.whatsapp-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.whatsapp-btn button {
+    background-color: #ff7b00;
+    /* Cor de fundo laranja */
+    color: white;
+    /* Cor do texto */
+    border: none;
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 50px 0;
+}
+
+.whatsapp-btn button:hover {
+    background-color: #e66a00;
+    /* Cor laranja mais escura no hover */
+}

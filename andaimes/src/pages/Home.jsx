@@ -1,52 +1,14 @@
+import Banner from "../componentes/Banner/Banner.jsx"
 import Footer from "../componentes/Footer/Footer.jsx"
 import Header from "../componentes/Header/Header.jsx"
+import ImageGalley from "../componentes/ImageGallery/ImageGallery.jsx"
 
 function Home() {
     return (
         <>
-            <Header/>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br/>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br/>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br/>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br/>
-            <br />
-            <br />
-            
-            
+            <Header />
+            <Banner />
+            <ImageGalley/>  
             <Footer/>
         </>
     )

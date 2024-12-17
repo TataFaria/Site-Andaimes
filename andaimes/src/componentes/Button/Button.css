@@ -1,0 +1,19 @@
+.botao-saiba-mais {
+    background-color: #ff7b00;
+    /* Cor de fundo laranja */
+    color: white;
+    /* Cor do texto */
+    border: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao-saiba-mais:hover {
+    background-color: #e66a00;
+    /* Cor laranja mais escura no hover */
+}

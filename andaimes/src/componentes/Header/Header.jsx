@@ -1,5 +1,6 @@
 import Logo from '../../assets/andaimes-logo.svg'
 import './Header.css';
+import InstagramLogo from '../../assets/instagram.svg'
 
 
 function Header() {
@@ -13,6 +14,19 @@ function Header() {
                         <h3>Locação de andaimes e Escoramentos Metálicos</h3>
                     </div>
                 </div>
+                 {/* Adiciona o logo do Instagram */}
+                <a 
+                    href="https://www.instagram.com/andaimesvr/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="instagram-link"
+                >
+                    <img 
+                        src={InstagramLogo} 
+                        alt="Instagram Andaimes V.Redonda" 
+                        className="instagram-logo"
+                    />
+                </a>
             </div>
         </header>
     );

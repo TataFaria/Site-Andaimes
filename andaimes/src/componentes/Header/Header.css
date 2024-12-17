@@ -1,20 +1,23 @@
 /* GRID */
-.header {
+.header-container {
         display: flex;
-        box-sizing: border-box;
-        width: 100%;
-        max-width: 1140px;
-        position: relative;
-        height: 200px;
+            justify-content: space-between;
+            /* Divide espaço igualmente */
+            align-items: center;
+            flex-wrap: wrap;
+            /* Adapta em telas menores */
+            box-sizing: border-box;
+            padding: 50px 30px;
+            width: 100%;
+            margin: 0;
+            padding: 20px 50px;
+            color: white;
     }   
 
 .logo-and-text-header {
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-top: 5px;
-    white-space: nowrap;
-    padding-left: 50px;
         
     /* Espaço entre o logo e o texto */
 }
@@ -37,7 +40,31 @@
 
 .header-text h3 {
     margin: 0;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: normal;
+}
+
+.instagram-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* Remove o sublinhado do link */
+}
+
+.instagram-logo {
+    height: 40px;
+    /* Ajusta o tamanho da logo */
+    width: 40px;
+    /* Garante que o logo é quadrado */
+    margin-left: 20px;
+    /* Espaço entre o logo do Instagram e outros elementos */
+    transition: transform 0.3s ease-in-out;
+    /* Adiciona um efeito suave */
+}
+
+.instagram-logo:hover {
+    transform: scale(1.1);
+    /* Efeito de zoom ao passar o mouse */
 }
 

@@ -23,7 +23,7 @@ function Footer() {
 
           <div className="horario">
             <h2>HORÁRIO DE ATENDIMENTO</h2>
-            <p>Seg-Sex: 07:00h-12:00h | 13:30h-18:00h</p>
+            <p>Seg-Sex: 07:30h-12:00h | 13:30h-18:00h</p>
             <p>Sáb: Fechado</p>
             <p>Dom: Fechado</p>
           </div>

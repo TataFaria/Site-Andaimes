@@ -92,7 +92,7 @@ function ImageGalley() {
       id: 9,
       categoria: 'acessorios',
       tamanho: '',
-      imagem: SapataFixa,
+      imagem: SapataRegulavel,
       titulo: 'Aluguel de Sapata Regulável para Andaime',
       descricao:
         'Sapata ajustável para andaimeé usada para nivelamento de andaimes em terrenos irregulares',

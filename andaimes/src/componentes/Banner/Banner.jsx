@@ -1,10 +1,10 @@
 import "./Banner.css";
 import Button from "../Button/Button";
-import bannerImg from "../../assets/banner.svg";
+import fotoAndaimes from "../../assets/fotoAndaimes.svg";
 
 function Banner() {
     return (
-        <section className="banner" style={{ backgroundImage: `url(${bannerImg})` }}>
+        <section className="banner" style={{ backgroundImage: `url(${fotoAndaimes})` }}>
             <div className="banner-content">
                 <h1>Bem Vindo à <br /> Andaimes V.Redonda</h1>
                 <p>
